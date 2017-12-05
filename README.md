@@ -9,7 +9,7 @@
 ### 安装方法
 
 1. 新版hiwifi => 使用项目根目录下的 `shadow.sh` 脚本进行安装, 建议使用以下一键命令:
-v1.1.3.5.18462s
+v1.4.5.19222s
 
 ```bash
     cd /tmp && curl -k -o shadow.sh https://raw.githubusercontent.com/wzs1990/hiwifi-ss/master/shadow.sh && sh shadow.sh && rm shadow.sh
@@ -29,7 +29,7 @@ cd gfwlist2dnsmasq
 
 ### 本地安装/开发
 
-以 tag `v1.0.5` 为例
+以 tag `v1.0.6` 为例
 
 ```bash
 # 本地生成 tar 包
@@ -61,7 +61,6 @@ tar xzvf /tmp/hiwifi-ss.tar.gz -C /
 
 3. 在ss配置中修改为 `chacha20` 即可
 
-备注： 参考[xqd的小站](https://php-rmcr7.rhcloud.com/chacha20/)整理，Thank you!
 
 ### 常见问题
 
